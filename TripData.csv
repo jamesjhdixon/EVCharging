@@ -1,0 +1,59 @@
+TripID,VehicleID,Trip_Origin,Trip_Destination,Trip_Start,Trip_End,Trip_km,Journey_Type
+1,Canyonero,Home,Work,510,545,32,combined
+2,Canyonero,Work,Home,1020,1050,32,combined
+3,Canyonero,Home,Day trip/just walk,1080,1090,5,city
+4,Canyonero,Day trip/just walk,Food shopping,1140,1150,5,city
+5,Canyonero,Food shopping,Home,1170,1180,5,city
+6,Canyonero,Home,Work,1950,1980,32,combined
+7,Canyonero,Work,In course of work,2190,2219,39,hwy
+8,Canyonero,In course of work,Work,2405,2435,39,combined
+9,Canyonero,Work,Home,2460,2485,32,combined
+10,Canyonero,Home,Work,3390,3425,32,combined
+11,Canyonero,Work,In course of work,3670,3710,24,city
+12,Canyonero,In course of work,Personal business other,3870,3930,48,city
+13,Canyonero,Personal business other,Home,4020,4065,26,city
+14,Canyonero,Home,Work,4830,4865,32,combined
+15,Canyonero,Work,In course of work,5130,5145,19,combined
+16,Canyonero,In course of work,Work,5340,5385,19,city
+17,Canyonero,Work,Eat/drink with friends,5400,5410,2,city
+18,Canyonero,Eat/drink with friends,Home,5610,5640,32,combined
+19,Canyonero,Home,Escort work,6285,6315,13,city
+20,Canyonero,Escort work,Home,6315,6335,13,combined
+21,Canyonero,Home,Visit friends,6450,6540,190,hwy
+22,Canyonero,Visit friends,Visit friends,6570,6585,8,city
+23,Canyonero,Visit friends,Visit friends,6900,6915,8,city
+24,Canyonero,Visit friends,Visit friends,7920,7935,8,city
+25,Canyonero,Visit friends,Visit friends,8040,8055,8,city
+26,Canyonero,Home,Personal business other,9300,9320,11,city
+27,Canyonero,Personal business other,Non food shopping,9330,9340,5,city
+28,Canyonero,Non food shopping,Day trip/just walk,9350,9355,2,city
+29,Canyonero,Day trip/just walk,Non food shopping,9390,9400,3,city
+30,Canyonero,Non food shopping,Home,9420,9445,10,city
+31,Cortina,Home,Work,480,509,23,combined
+32,Cortina,Work,Home,1050,1080,23,city
+33,Cortina,Home,Work,1920,1946,23,combined
+34,Cortina,Work,Other escort,2490,2510,14,city
+35,Cortina,Other escort,Home,2520,2545,8,city
+36,Cortina,Home,Work,3360,3394,23,combined
+37,Cortina,Work,Home,3872,3912,23,city
+38,Cortina,Home,Work,4800,4839,23,city
+39,Cortina,Work,Home,5320,5350,23,city
+40,Cortina,Home,Personal business other,5350,5375,8,city
+41,Cortina,Personal business other,Other escort,5390,5400,1,city
+42,Cortina,Other escort,Home,5405,5420,10,city
+43,Cortina,Home,Work,6240,6270,23,city
+44,Cortina,Work,Home,6810,6875,23,city
+45,Cortina,Home,Other escort,8017,8040,23,combined
+46,Cortina,Other escort,Home,8260,8297,24,city
+47,Cortina,Home,Other escort,9265,9293,23,city
+48,Cortina,Other escort,Home,9347,9385,23,city
+49,Herbie,Home,Work,1935,1970,26,city
+50,Herbie,Work,Home,2505,2540,26,city
+51,Herbie,Work,Home,3945,3985,26,city
+52,Herbie,Work,Home,6815,6855,26,city
+53,Herbie,Home,Non food shopping,7730,7765,47,combined
+54,Herbie,Non food shopping,Non food shopping,7860,7895,48,hwy
+55,Herbie,Home,Food shopping,9227,9235,3,city
+56,Herbie,Food shopping,Home,9320,9335,3,city
+57,Herbie,Home,Visit friends,9440,9465,11,city
+58,Herbie,Visit friends,Home,9855,9880,11,city
