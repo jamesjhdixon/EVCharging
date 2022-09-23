@@ -21,7 +21,7 @@ Consumption_dict = {24: (0.17, 0.187, 0.21),
 
 # randomly select 10,000 cars
 n_cars = 10000
-vehicles = np.random.choice(TravelData.VehicleID.unique().tolist(), size=n_cars)
+vehicles = np.random.choice(TravelData.VehicleID.unique().tolist(), size=n_cars, replace=False)
 ChargeBehaviours = ['Minimal', 'Routine']
 
 for ChargeBehaviour in ChargeBehaviours:

@@ -401,9 +401,14 @@ def ChargingSchedule(TravelDiary, CarSpec, ChargingPower, HomeCharge, WorkCharge
 
     ChargeEvents = ChargeEvents.reset_index(drop=True)
 
-    # if ChargeEvents is empty (vehicle does not need to charge), give it a row of NaNs *with* its VehicleID
-    if ChargeEvents.empty:
+    # if the *home* charge events are empty (vehicle does not need to charge), give it a row of NaNs *with* its VehicleID
+    if ChargeEvents[ChargeEvents.ChargeType == 'home'].empty:
+
+        ChargeEvents = ChargeEvents.iloc[0:0]
+
         ChargeEvents.at[0, 'VehicleID'] = TravelDiary.VehicleID.tolist()[0]
+        ChargeEvents.at[0, 'BatteryCapacity'] = bsize
+        ChargeEvents.at[0, 'ChargeType'] == 'home'
 
     return ChargeEvents, TravelDiary
 
