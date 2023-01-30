@@ -46,5 +46,4 @@ A key to the columns of the output:
 This was developed by James Dixon at the University of Strathclyde, Glasgow, 2019-2020.
 
 # Citation
-J. Dixon, P.B. Andersen, K. Bell, C. Træholt, On the ease of being green: An investigation of the inconvenience of electric vehicle charging. Applied Energy,
-Volume 258, 2020. https://doi.org/10.1016/j.apenergy.2019.114090.
+J. Dixon, K. Bell. (2020) Electric vehicles: Battery capacity, charger power, access to charging and the impacts on distribution networks. eTransportation, volume 4, https://doi.org/10.1016/j.etran.2020.100059
