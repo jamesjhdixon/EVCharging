@@ -2,6 +2,7 @@
 Produces **credible** EV charging schedules from car journey data according to two models for driver behaviour.
 
 ![image](https://github.com/jamesjhdixon/EVCharging/assets/36702681/920954dd-78f8-4e64-ac2d-e4a00e691e87)
+
 *Comparison of average charging frequency (events per day) against vehicle battery size for Electric Nation trial data and results from this model (for 'minimal charging'). Taken from: https://doi.org/10.1016/j.renene.2020.07.017*
 
 Inputs:
