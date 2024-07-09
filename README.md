@@ -1,5 +1,8 @@
 # EVCharging
-Produces credible EV charging schedules from car journey data according to two models for driver behaviour. 
+Produces **credible** EV charging schedules from car journey data according to two models for driver behaviour.
+
+![image](https://github.com/jamesjhdixon/EVCharging/assets/36702681/920954dd-78f8-4e64-ac2d-e4a00e691e87)
+*Comparison of average charging frequency (events per day) against vehicle battery size for Electric Nation trial data and results from this model (for 'minimal charging'). Taken from: https://doi.org/10.1016/j.renene.2020.07.017*
 
 Inputs:
 <ul>
@@ -10,14 +13,10 @@ Inputs:
   <li>Charging behaviour model ('minimal' - in which drivers seek the minimum possible number of plug-ins - or 'routine' - in which drivers will always plug-in on arrival at home)</li>
 </ul>
 
-For details on the model, see https://www.sciencedirect.com/science/article/pii/S0306261919317775.
+For details on the model, see https://doi.org/10.1016/j.apenergy.2019.114090.
 
-Case studies where this model has been used:
-https://www.sciencedirect.com/science/article/pii/S2590116820300163
-https://strathprints.strath.ac.uk/73065/
-
-# Getting Started
-Example trip data is provided as TripData.csv. Any trip data can be read, so long as the column headers match. These example data are anonymised entries from the UK National Travel Survey (https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=5340).
+# Getting started: trip data
+Example trip data is provided as TripData.csv. **Any trip data can be read**, so long as the column headers match. These example data are anonymised entries from the UK National Travel Survey (https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=5340).
 
 Clone repository and save in a single directory. Execute run.py to generate charging schedules from travel diaries.
 
