@@ -4,12 +4,9 @@ import pandas as pd
 import pickle
 
 # Load travel data - all vehicles
-NTS_DataDir = f"C:/Users/cenv0795/Data/NTS_TripData/"
-f = open(f"{NTS_DataDir}NTSTripData.pckl", "rb")
-TravelData = pickle.load(f)
-f.close()
+TravelData = return_trip_data_from_nts(years=range(2012, 2022))
 
-SaveDir = f"C:/Users/cenv0795/Data/EVCharging_Schedules/"
+SaveDir = f"./EVCharging_Schedules/"
 
 # Specify car spec - battery size (kWh), consumption - city (kWh/km), consumption - combination (kWh/km), consumption - highway (kWh/km)
 Consumption_dict = {24: (0.17, 0.187, 0.21),

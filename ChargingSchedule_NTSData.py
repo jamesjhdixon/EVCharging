@@ -18,6 +18,15 @@ def objective(x):
 
     return Pdc * (np.exp(-dt * l) - 1) + 60 * (1 - SoCLimit) * bsize * l
 
+# import TRIP data from stata file
+def return_trip_data_from_nts(years=[2022]):
+    df = pd.read_stata(f'./../nts_data/UKDA-5340-stata/stata/stata13/trip_eul_2002-2022.dta')
+    df = df[(df['SurveyYear'].isin(years))]
+    df = df[(df['TripStart'] != 'NA') & (df['TripEnd'] != 'NA')]
+    return df
+
+trips = return_trip_data_from_nts()
+trips.head()
 
 def func(x):
     l, dt = x
